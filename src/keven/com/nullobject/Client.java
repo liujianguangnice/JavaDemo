@@ -12,8 +12,8 @@ public class Client {
     private static DependencyBase dependencyBase;
 
     private static void test() {
-        System.out.println("1");
         Factory.get(dependencyBase).Operation();
+
     }
 
     public static void main(String[] args) {
